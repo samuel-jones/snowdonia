@@ -29,8 +29,9 @@ zoom: 10 // starting zoom
  
 
 
+
 map.on('load', () => {
-map.addSource('ffestiniog ', {
+map.addSource('ffestiniog', {
 'type': 'raster',
 'url': 'mapbox://samwise.1yoewcwx'
 });
@@ -56,13 +57,13 @@ map.addLayer({
 });
 
 
-
 map.addLayer({
 'id': 'ffestiniog',
 'source': 'ffestiniog',
 'type': 'raster'
 });
 });
+
 
 
 </script>
